@@ -1,0 +1,6 @@
+Schema::table('classes', function (Blueprint $table) {
+    $table->string('undergra')->default('')->change();
+    $table->integer('type')->default(0)->change();
+    $table->string('class_name')->default('')->change();
+    $table->string('in_charge')->default('Anonymous')->change();
+});

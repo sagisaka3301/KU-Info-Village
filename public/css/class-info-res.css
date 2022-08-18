@@ -1,0 +1,189 @@
+@media all and (max-width: 1024px) {
+
+}
+
+@media all and (max-width: 560px) {
+    .title {
+        padding-top: 90px;
+    }
+    .title h2 {
+        font-size: 28px;
+        padding-bottom: 15px;
+    }
+    /* メイン */
+    .title h3 {
+        font-size: 16px;
+    }
+
+    .search-post-area {
+        display: flex;
+        flex-direction: column;
+    }
+    .search-box {
+        flex-direction: column;
+    }
+
+    .ungra-ex {
+        height: 30px;
+        width: 100px;
+    }
+
+    .ex-sub {
+        font-size: 14px;
+        padding: 3px 15px;
+        margin-left: 3px;
+    }
+
+    .search {
+        margin-top: 20px;
+        width: 170px;
+        margin-left: 0;
+        height: 34px;
+    }
+
+    .search-sub {
+        font-size: 14px;
+        /* width: 55px; */
+        height: 34px;
+        text-align: center;
+        margin-left: 3px;
+    }
+
+    .open-btn {
+        text-align: left;
+        width: 90%;
+        margin: 20px auto 0 auto;
+    }
+
+    .open-btn p {
+        display: inline-block;
+        padding: 4px 20px;
+        font-size: 14px;
+    }
+
+
+    /* 評価投稿フォーム */
+    .review-box {
+        width: 90%;
+    }
+    .rev-title h2 {
+        font-size: 22px;
+    }
+    .gakubu {
+        margin: 0 auto;
+    }
+    .taipu {
+        margin-left: 20px;
+    }
+    .taipu select {
+        margin: 0 auto;
+        width: 140px;
+    }
+    .jugyou-tantou {
+        flex-direction: column;
+        justify-content: left;
+    }
+    .jugyou {
+        margin: 0 0 0 21px;
+    }
+    .jugyou input {
+        width: 70%;
+    }
+    .tantou {
+
+        margin: 15px 0 0 7px;
+    }
+    .tantou input {
+        width: 67%;
+    }
+    .star-title {
+        margin-left: 67px;
+    }
+
+    .hyouka {
+        width: 80%;
+        margin: 5px auto 0 auto;
+    }
+    .hyouka label {
+        bottom: 0px;
+        margin-left: 0;
+    }
+    .hyouka textarea {
+        margin: 0 auto;
+        width: 100%;
+        height: 95px;
+    }
+    .submit-btn {
+        margin-top: 10px;
+    }
+
+    /* 評価一覧 */
+    .list-box {
+        width: 95%;
+    }
+
+    .contents {
+        margin:  10px auto 0 auto;
+    }
+    .class-content {
+        width: 46%;
+    }
+
+    .name-type {
+        width: 98%;
+    }
+
+    .con-name {
+        font-size: 13px;
+    }
+
+    .con-name p {
+        padding: 8px 0 6px 0;
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    .con-name span {
+        font-size: 12px !important;
+        padding: 4px 5px;
+    }
+
+    .con-charge {
+        margin: 0%;
+    }
+
+    .con-charge p {
+        width: 95%;
+        font-size: 11px;
+        margin: 0 auto;
+        padding: 7px 0;
+    }
+
+    .con-star {
+        font-size: 22px;
+    }
+
+    .con-under {
+        font-size: 12px;
+    }
+    .con-under p {
+        margin-bottom: 2px;
+    }
+
+    .deta {
+        font-size: 12px;
+    }
+
+    .con-comment {
+        height: 70px;
+    }
+
+    .con-comment p {
+        font-size: 11px;
+        -webkit-line-clamp: 4;
+
+    }
+    .con-date {
+        font-size: 10px;
+    }
+}

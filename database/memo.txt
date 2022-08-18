@@ -1,0 +1,19 @@
+$table->id();
+$table->string('undergra', 11)->default('');
+$table->integer('type')->default(0);
+$table->string('class_name')->default('');
+$table->string('in_charge')->default('Anonymous');
+$table->integer('evaluation')->default(1);
+$table->string('comment')->default('コメントなし');
+$table->string('post_user')->default('');
+$table->timestamps();
+
+
+$table->id();
+$table->string('name', 64)->nullable()->default('');
+$table->integer('email', 191)->default('');
+$table->string('password', 191)->default('');
+$table->string('f_name', 255)->nullable()->default('noimage.png');
+$table->integer('f_path')->nullable()->default('{{ asset("images/noimage.png") }}');
+$table->string('post_flag')->default(0);
+$table->timestamps();

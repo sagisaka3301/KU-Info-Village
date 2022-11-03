@@ -108,6 +108,8 @@ MYページについては以上になります。
 <br>
 
 以上でアプリケーションの紹介は終了になります。最後までご覧いただきありがとうございました。
+<br>
+<a href="https://kuinfo123.com" target="_blank">https://kuinfo123.com</a>
 
 
 
